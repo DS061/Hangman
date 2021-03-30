@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl"
+	android:orientation="vertical"
+	 android:focusable="true"
+    android:focusableInTouchMode="true" 
+	android:background="@android:color/holo_orange_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	 <EditText
+        android:hint="Enter Your Name"
+        android:id="@+id/edtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+		android:textColor="@color/red"
+		android:layout_marginBottom="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make Your Choice"
+        android:textSize="30dp"
+	
+        android:id="@+id/txt"
+		android:textColor="@color/red"
+        android:gravity="center"
+       />
+   
+    <GridView
+        android:id="@+id/gv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+		android:numColumns="2"
+	
+		android:gravity="center"
+        android:layout_marginTop="50dp" />
+  
+</LinearLayout>
